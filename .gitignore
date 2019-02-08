@@ -3,3 +3,10 @@
 ################################################################################
 
 /SinglePageApplication/.vs/SinglePageApplication/v15/Server/sqlite3
+/SinglePageApplication/.vs/SinglePageApplication/v15/.suo
+/SinglePageApplication/SinglePageApplication/bin/Debug/netcoreapp2.1
+/SinglePageApplication/SinglePageApplication/obj
+/SinglePageApplication/SinglePageApplication/SinglePageApplication.csproj.user
+/SinglePageApplication/.vs/config
+/.vs/slnx.sqlite
+/.vs/AadDemos/v15/.suo
