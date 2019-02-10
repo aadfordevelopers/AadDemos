@@ -10,3 +10,9 @@
 /SinglePageApplication/.vs/config
 /.vs/slnx.sqlite
 /.vs/AadDemos/v15/.suo
+/SinglePageApplicationWithAPI/.vs
+/SinglePageApplicationWithAPI/SinglePageApplicationWithAPI/bin/Debug/netcoreapp2.1
+/SinglePageApplicationWithAPI/SinglePageApplicationWithAPI/obj
+/SinglePageApplicationWithAPI/SinglePageApplicationWithAPI/SinglePageApplication.csproj.user
+/SinglePageApplicationWithAPI/WebAPI/bin/Debug/netcoreapp2.1
+/SinglePageApplicationWithAPI/WebAPI/obj
