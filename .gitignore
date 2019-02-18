@@ -16,3 +16,11 @@
 /SinglePageApplicationWithAPI/SinglePageApplicationWithAPI/SinglePageApplication.csproj.user
 /SinglePageApplicationWithAPI/WebAPI/bin/Debug/netcoreapp2.1
 /SinglePageApplicationWithAPI/WebAPI/obj
+/WebApp-WebAPI/.vs
+/WebApp-WebAPI/WebAPI/bin/Debug/netcoreapp2.1
+/WebApp-WebAPI/WebAPI/obj
+/WebApp-WebAPI/WebAPI/WebAPI.csproj.user
+/WebApp-WebAPI/WebApp/bin/Debug/netcoreapp2.1
+/WebApp-WebAPI/WebApp/obj
+*.user
+/WebApp-WebAPI/WebApp-WebAPI/obj
