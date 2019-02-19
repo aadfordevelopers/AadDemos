@@ -24,3 +24,6 @@
 /WebApp-WebAPI/WebApp/obj
 *.user
 /WebApp-WebAPI/WebApp-WebAPI/obj
+/WebApp-FunctionAPI/.vs
+/WebApp-FunctionAPI/WebApp-FunctionAPI/bin/Debug/netcoreapp2.1
+/WebApp-FunctionAPI/WebApp-FunctionAPI/obj
