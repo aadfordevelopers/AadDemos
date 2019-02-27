@@ -27,3 +27,12 @@
 /WebApp-FunctionAPI/.vs
 /WebApp-FunctionAPI/WebApp-FunctionAPI/bin/Debug/netcoreapp2.1
 /WebApp-FunctionAPI/WebApp-FunctionAPI/obj
+/WebApp-WebAPI-OnBehalfOf/.vs
+/WebApp-WebAPI-OnBehalfOf/API.Common/bin/Debug/netcoreapp2.1
+/WebApp-WebAPI-OnBehalfOf/API.Common/obj
+/WebApp-WebAPI-OnBehalfOf/WebAPI/bin/Debug/netcoreapp2.1
+/WebApp-WebAPI-OnBehalfOf/WebAPI/obj
+/WebApp-WebAPI-OnBehalfOf/WebAPI2/bin/Debug/netcoreapp2.1
+/WebApp-WebAPI-OnBehalfOf/WebAPI2/obj
+/WebApp-WebAPI-OnBehalfOf/WebApp/bin/Debug/netcoreapp2.1
+/WebApp-WebAPI-OnBehalfOf/WebApp/obj
