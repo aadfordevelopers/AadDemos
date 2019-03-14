@@ -36,3 +36,10 @@
 /WebApp-WebAPI-OnBehalfOf/WebAPI2/obj
 /WebApp-WebAPI-OnBehalfOf/WebApp/bin/Debug/netcoreapp2.1
 /WebApp-WebAPI-OnBehalfOf/WebApp/obj
+/CertificateClient/.vs/CertificateClient/v15/Server/sqlite3
+/CertificateClient/.vs/CertificateClient/v15/.suo
+/CertificateClient/.vs/config/applicationhost.config
+/CertificateClient/CertificateClient/bin/Debug/netcoreapp2.1
+/CertificateClient/CertificateClient/obj
+/CertificateClient/WebAPI/bin/Debug/netcoreapp2.1
+/CertificateClient/WebAPI/obj
