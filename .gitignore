@@ -43,3 +43,9 @@
 /CertificateClient/CertificateClient/obj
 /CertificateClient/WebAPI/bin/Debug/netcoreapp2.1
 /CertificateClient/WebAPI/obj
+/IntegrationTests-WebAPI/WebAPI/.vs/WebAPI/v15
+/IntegrationTests-WebAPI/WebAPI/WebAPI/bin/Debug/netcoreapp2.1
+/IntegrationTests-WebAPI/WebAPI/WebAPI/obj
+/UWP/UWPAuthentication/.vs
+/UWP/UWPAuthentication/UWPAuthentication/bin/x86/Debug
+/UWP/UWPAuthentication/UWPAuthentication/obj
