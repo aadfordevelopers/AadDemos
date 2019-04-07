@@ -55,3 +55,9 @@
 /Android/AndroidAuthentication/APIClientLibrary/obj
 /Android/AndroidAuthentication/APIClientLibrary/bin/Debug/netstandard2.0
 /Android/AndroidAuthentication/packages
+/WpfAuthentication/WPFAuthentication/.vs
+/WpfAuthentication/WPFAuthentication/packages/Microsoft.IdentityModel.Clients.ActiveDirectory.3.14.1
+/WpfAuthentication/WPFAuthentication/WebAPI/bin/Debug/netcoreapp2.1
+/WpfAuthentication/WPFAuthentication/WebAPI/obj
+/WpfAuthentication/WPFAuthentication/WPF/bin/Debug
+/WpfAuthentication/WPFAuthentication/WPF/obj/Debug
