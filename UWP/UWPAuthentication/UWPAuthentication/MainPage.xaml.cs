@@ -43,7 +43,7 @@ namespace UWPAuthentication
 
             try
             {
-                result = await authContext.AcquireTokenAsync(resourceId, clientId, redirectURI, new PlatformParameters(PromptBehavior.RefreshSession, false));
+                result = await authContext.AcquireTokenAsync(resourceId, clientId, redirectURI, new PlatformParameters(PromptBehavior.Auto, false));
             }
             catch (Exception ex)
             {

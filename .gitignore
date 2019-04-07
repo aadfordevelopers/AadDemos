@@ -49,3 +49,9 @@
 /UWP/UWPAuthentication/.vs
 /UWP/UWPAuthentication/UWPAuthentication/bin/x86/Debug
 /UWP/UWPAuthentication/UWPAuthentication/obj
+/Android/AndroidAuthentication/.vs/AndroidAuthentication/v15
+/Android/AndroidAuthentication/AndroidAuthentication/bin/Debug
+/Android/AndroidAuthentication/AndroidAuthentication/obj
+/Android/AndroidAuthentication/APIClientLibrary/obj
+/Android/AndroidAuthentication/APIClientLibrary/bin/Debug/netstandard2.0
+/Android/AndroidAuthentication/packages
