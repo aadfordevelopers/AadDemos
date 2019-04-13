@@ -24,6 +24,8 @@ namespace CertificateClient
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Press Enter to fetch respone from API");
+            Console.ReadLine();
             X509Certificate2 cert = ReadCertificateFromStore(certName);
             authContext = new AuthenticationContext(authority);
             certCred = new ClientAssertionCertificate(clientId, cert);
