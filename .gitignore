@@ -90,3 +90,7 @@
 /WpfAuthentication/WebAPI/obj
 /WpfAuthentication/WPF/bin/Debug
 /WpfAuthentication/WPF/obj/Debug
+/ClientCredential/.vs
+/ClientCredential/Client/obj/Debug
+/ClientCredential/packages/Microsoft.IdentityModel.Clients.ActiveDirectory.3.14.1
+/ClientCredential/WebAPI/obj
