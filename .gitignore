@@ -95,3 +95,10 @@
 /ClientCredential/packages/Microsoft.IdentityModel.Clients.ActiveDirectory.3.14.1
 /ClientCredential/WebAPI/obj
 /ClientCredential/Client/bin/Debug
+/ClientCredential/WebAPI/bin/Debug/netcoreapp2.1
+/CustomDataExtensions/.vs/CustomDataExtensions/v15
+/CustomDataExtensions/CustomDataExtensions/bin/Debug
+/CustomDataExtensions/CustomDataExtensions/obj/Debug
+/CustomDataExtensions/packages/Microsoft.IdentityModel.Clients.ActiveDirectory.3.14.1
+/CustomDataExtensions/SchemaExtensions/bin/Debug
+/CustomDataExtensions/SchemaExtensions/obj/Debug
