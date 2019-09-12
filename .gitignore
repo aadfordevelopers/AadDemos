@@ -102,3 +102,14 @@
 /CustomDataExtensions/packages/Microsoft.IdentityModel.Clients.ActiveDirectory.3.14.1
 /CustomDataExtensions/SchemaExtensions/bin/Debug
 /CustomDataExtensions/SchemaExtensions/obj/Debug
+/WpfAuthentication/WPF/obj/Release
+/WebApp-WebAPI-ReAuthenticate/WebApp-WebAPI/obj
+/WebApp-WebAPI-ReAuthenticate/WebApp/obj
+/WebApp-WebAPI-ReAuthenticate/WebApp/bin/Debug/netcoreapp2.1
+/WebApp-WebAPI-ReAuthenticate/WebAPI/obj
+/WebApp-WebAPI-ReAuthenticate/.vs
+/WebApp-WebAPI-ReAuthenticate/WebAPI/bin/Debug/netcoreapp2.1
+/CustomDataExtensions/CustomDataExtensions/obj/Release
+/CustomDataExtensions/SchemaExtensions/obj/Release
+/ClientCredential/Client/obj/Release
+/ConsoleAppAuthentication/Console/obj/Release

@@ -62,7 +62,7 @@ namespace Microsoft.AspNetCore.Authentication
             /// </summary>
             private async Task OnAuthorizationCodeReceived(AuthorizationCodeReceivedContext context)
             {
-                // Acquire a Token for the Graph API and cache it using ADAL. In the TodoListController, we'll use the cache to acquire a token for the Todo List API
+                // Acquire a Token for the API and cache it using ADAL.
                 string userObjectId = (context.Principal.FindFirst("http://schemas.microsoft.com/identity/claims/objectidentifier"))?.Value;
                 var authContext = new AuthenticationContext(context.Options.Authority, new TokenSessionCache(userObjectId, context.HttpContext.Session));
                 var credential = new ClientCredential(context.Options.ClientId, context.Options.ClientSecret);

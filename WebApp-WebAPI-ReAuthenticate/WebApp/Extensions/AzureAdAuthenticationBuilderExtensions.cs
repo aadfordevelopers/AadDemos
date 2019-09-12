@@ -4,7 +4,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using System;
 using System.Threading.Tasks;
-using WebApp_FunctionAPI;
+using WebApp;
 
 namespace Microsoft.AspNetCore.Authentication
 {
@@ -19,6 +19,19 @@ namespace Microsoft.AspNetCore.Authentication
             builder.Services.AddSingleton<IConfigureOptions<OpenIdConnectOptions>, ConfigureAzureOptions>();
             builder.AddOpenIdConnect();
             return builder;
+        }
+
+        internal static bool ForceReauthenticate(this RedirectContext context)
+        {
+            context.Properties.Items.TryGetValue("forceReAuth", out string forceAuthenticate);
+
+            bool shouldReauthenticate = false;
+            if (forceAuthenticate != null && !bool.TryParse(forceAuthenticate, out shouldReauthenticate))
+            {
+                return false;
+            }
+
+            return shouldReauthenticate;
         }
 
         private class ConfigureAzureOptions : IConfigureNamedOptions<OpenIdConnectOptions>
@@ -48,6 +61,8 @@ namespace Microsoft.AspNetCore.Authentication
                 // Subscribing to the OIDC events
                 options.Events.OnAuthorizationCodeReceived = OnAuthorizationCodeReceived;
                 options.Events.OnAuthenticationFailed = OnAuthenticationFailed;
+                options.Events.OnRedirectToIdentityProvider = OnRedirectToIdentityProvider;
+                options.ClaimActions.Remove("auth_time");
             }
 
             public void Configure(OpenIdConnectOptions options)
@@ -58,7 +73,7 @@ namespace Microsoft.AspNetCore.Authentication
             /// <summary>
             /// Redeems the authorization code by calling AcquireTokenByAuthorizationCodeAsync in order to ensure
             /// that the cache has a token for the signed-in user, which will then enable the controllers (like the
-            /// TodoController, to call AcquireTokenSilentAsync successfully.
+            /// Controller, to call AcquireTokenSilentAsync successfully.
             /// </summary>
             private async Task OnAuthorizationCodeReceived(AuthorizationCodeReceivedContext context)
             {
@@ -81,6 +96,16 @@ namespace Microsoft.AspNetCore.Authentication
             {
                 context.HandleResponse();
                 context.Response.Redirect("/Home/Error?message=" + context.Exception.Message);
+                return Task.FromResult(0);
+            }
+
+            private Task OnRedirectToIdentityProvider(RedirectContext context)
+            {
+                if (context.ForceReauthenticate())
+                {
+                    context.ProtocolMessage.MaxAge = "0";
+                }
+
                 return Task.FromResult(0);
             }
         }
